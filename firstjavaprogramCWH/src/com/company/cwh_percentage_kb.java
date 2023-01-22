@@ -1,0 +1,81 @@
+package com.company;
+import java.util.Scanner;
+public class cwh_percentage_kb {
+    public static void main(String[] args) {
+   /*     float a=87;
+        float b=89;
+        float c = 95;
+        float cgpa= (a+b+c)/30;
+        System.out.println(cgpa);
+        System.out.println("what is your name ");
+        Scanner sc=new Scanner(System.in);
+        String name= sc.next();
+        System.out.println("hello "+ name +" have a good day");
+        System.out.println("Enter your number");
+        Scanner sc=new Scanner(System.in);
+        System.out.println(sc.hasNextInt());
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Enter your maths marks");
+        float num1=sc.nextFloat();
+        System.out.println("Enter your physics marks");
+        float num2= sc.nextFloat();
+        System.out.println("Enter your chemistrey marks");
+        float num3=sc.nextFloat();
+        float cgpa=(num1+num2+num3)/30;
+        System.out.println("Grade point of student: " + cgpa);
+        Scanner xy =new Scanner(System.in);
+        System.out.println("speed in kilometer per hour");
+        int value1=xy.nextInt();
+        int value2=(value1*5)/18;
+        System.out.println("speed in meter per second: "+value2);
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the value of b");
+        int b= sc.nextInt();
+        System.out.println("Enter the value of c");
+        int c= sc.nextInt();
+        System.out.println("Enter the value of a");
+        int a= sc.nextInt();
+         int Root= ((b*b) - (4*a*c))/(2*a);
+        System.out.println("Root of the quaditric equation :" + Root);
+char grade ='B';
+        grade =(char)(grade +8);
+        System.out.println(grade);
+        grade=(char)(grade-8);
+        System.out.println(grade);
+        Scanner sc=new Scanner(System.in);
+        int a= sc.nextInt();
+        System.out.println(a>8);
+        System.out.println(7*49/7+35/7);
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Radius of the cone :");
+        float r= sc.nextFloat();
+        System.out.print("hight of the cone :");
+        float h=sc.nextFloat();
+        Double volume=( Math.PI*r*r*h)/3 ;
+        System.out.println("volume of the cone :"+ volume);
+Scanner sc =new Scanner(System.in);
+String st= sc.nextLine();
+        System.out.println(st);
+int a=6 ;
+float b=5.6454f;
+        System.out.printf("the value of a is %d and value of b is %8.2f" ,a,b);*/
+        String name ="Vishal";
+        int value =name.length();
+        System.out.println(value);
+        String lstring=name.toLowerCase();
+        System.out.println(lstring);
+        String ustring=name.toUpperCase();
+        System.out.println(ustring);
+        System.out.println(name.substring(3));
+        String replace=name.replace('V','b');
+        System.out.println(replace);
+        System.out.println(name.replace("l","bha"));
+        System.out.println(name.startsWith("Vi"));
+        System.out.println(name.endsWith("al"));
+        System.out.println(name.charAt(3));
+        System.out.println(name.indexOf("ha"));
+        System.out.println();
+
+    }
+
+}

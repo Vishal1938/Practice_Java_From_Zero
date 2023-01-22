@@ -1,0 +1,7 @@
+**MAIN METHODE**
+--static of xyz--
+123
+
+--value accssed--
+com.company.Xyz@65ab7765
+com.company.Xyz@1b28cdfa

@@ -1,0 +1,26 @@
+package com;
+
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+public class CWH_05_takinginput {
+    public static void main(String[] args) {
+        System.out.println("Taking input from user");
+        Scanner sc = new Scanner(System.in);
+       // System.out.println("Enter number1");
+     //   int a = sc.nextInt();
+      //  float a = sc.nextFloat();
+     //   System.out.println("Enter number2");
+      //  int b = sc.nextInt();
+      //  float b = sc.nextFloat();
+
+       // int sum= a + b;
+       // float sum= a + b;
+      //  System.out.println("The sum of these number is:");
+      //  System.out.println(sum);
+        boolean b1 = sc.hasNextInt();
+        System.out.println(b1);
+
+
+    }
+}

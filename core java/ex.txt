@@ -1,0 +1,6 @@
+java.lang.ArithmeticException: / by zero
+	at com.ExceptionHandling.D.m3(Workbook_6.java:46)
+	at com.ExceptionHandling.c.m2(Workbook_6.java:40)
+	at com.ExceptionHandling.B.m1(Workbook_6.java:34)
+	at com.ExceptionHandling.A.show(Workbook_6.java:28)
+	at com.ExceptionHandling.Workbook_6.main(Workbook_6.java:9)
